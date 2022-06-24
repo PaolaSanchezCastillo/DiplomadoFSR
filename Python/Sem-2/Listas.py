@@ -57,3 +57,41 @@ while i < len(nombres):
     print(nombres[i])
     i = i + 1 
 
+
+
+## Como comentamos previamente, las listas son estructuras de datos que son especiales 
+## por lo que podemos utilizar con ellas diferentes metodos, por ejemplo ordenar
+
+nombres = ["Paola", "Carlos", "Mario", "Israel", "Manuel", "Luis", "Elizabeth","Guillermo", "David"]
+alfabetico = sorted(nombres.copy())
+keys = sorted(nombres.copy() , key=len)
+reversas = sorted(nombres.copy() , reverse=True)
+
+
+## Imaginemos que debemos ordenar nuestra lista por orden ascendente 
+#alfabetico.sort()
+print(alfabetico)
+print(keys)
+##Mediante una llave especificado
+
+#reversas.sort(key=len)
+print(reversas)
+
+## Mediante la variable reversa y su inicializacion en booleano (true en caso de que queramos que el acomodo sea en reversa)
+# reverse false si no queremos
+
+
+# nombres.sort(reverse= True)
+# print(nombres)
+
+# nombres.sort(key=len, reverse= True)
+# print(nombres)
+
+
+
+print("Se incribieron", nombres)
+
+
+
+
+
