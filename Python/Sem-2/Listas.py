@@ -47,3 +47,13 @@ for y in range(1):
 
 print(len(nombres))
 
+
+## WHILE 
+
+
+i = 0 
+
+while i < len(nombres):
+    print(nombres[i])
+    i = i + 1 
+
