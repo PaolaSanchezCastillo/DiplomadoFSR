@@ -54,4 +54,41 @@ nombre = input()
 print("Hola " + nombre + " gusto en conocerte")
 
 
+## d
+
+def edad():
+    print("Hola, dime cual es tu edad ")
+    edad =int(input())
+    print("Hola, tu edad es " + f"{edad}") 
+
+
+edad()
+
+
+
+
+## Ejercicio 
+## Realizar 4 funciones basicas
+##Suma 
+##Resta 
+##Multiplicacion
+##Division 
+
+##Deberan poner un buffer, y este debera preguntar/Recibir que tipo de 
+## operacion quieren hacer 
+
+## 1- Crear la funciones que reciben 2 parametros (num1, num2)
+## Pintar un menu, que recibira una respuesta, es decir, 
+##La operacion que quieren hacer 
+
+## Que quieres hacer? 
+## a) Suma
+## b) Resta
+## c) Multiplicacion
+## d) Division 
+
+##Dependiendo de lo recibido en el buffer (IF) se realizara la operacion 
+## OBLIGATORIAMENTE debera invocarse una funcion 
+
+
 
