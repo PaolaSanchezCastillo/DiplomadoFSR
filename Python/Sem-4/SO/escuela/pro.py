@@ -1,7 +1,7 @@
-import per as Persona
+from escuela import per 
 
 
-class Profesor(Persona): ##HIJO 
+class Profesor(per.Persona): ##HIJO 
     def __init__(self, nombre, apellido_pat, apellido_mat, domicilio, tipo, departamento, numeroEmpleado, gradoAcademico):
         super().__init__(nombre, apellido_pat, apellido_mat, domicilio, tipo)
         self.departamento = departamento

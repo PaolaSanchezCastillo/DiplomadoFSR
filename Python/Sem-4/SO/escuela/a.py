@@ -1,6 +1,6 @@
-import per as Persona
+from escuela import per 
 
-class Alumno(Persona): ## HIJO 
+class Alumno(per.Persona): ## HIJO 
     def __init__(self, nombre, apellido_pat, apellido_mat, domicilio, tipo, numeroCuenta, carrera):
         super().__init__(nombre, apellido_pat, apellido_mat, domicilio, tipo) ## acceder al metodo constructor (init) de el padre
         self.numeroCuenta =numeroCuenta 
@@ -8,6 +8,7 @@ class Alumno(Persona): ## HIJO
 
 
     def asignarCalificacion(materia, calificacion):
+        ## materia = input("Ingresa la mateeria"); 
         print("Se obtubo la calificacion de " + calificacion +  " en la materia " + materia)
 
     def subirTrabajo(materia, nombre):
