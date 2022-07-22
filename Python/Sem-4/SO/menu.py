@@ -21,5 +21,9 @@ from  escuela import a
 '''
 
 
-nuevousuario = a.Alumno()
+
+
+
+
+## nuevousuario = a.Alumno()
 

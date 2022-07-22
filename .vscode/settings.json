@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./Python/Sem-4",
+        "./Python/Sem-4/SO",
+        "./Python/Sem-4/SO/escuela"
+    ]
+}
